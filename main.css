@@ -1,0 +1,119 @@
+body .first {
+    background-image: url(./images/IMG_5618.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#topmenu{
+    display:flex;
+    justify-content: space-between;
+    padding:auto 10px;
+    margin:0;
+    height: 50px;
+}
+
+input[placeholder] {
+    font-size: 0.8em;
+}
+.button {
+    border-radius: 10px;
+}
+
+.part{
+    width:50%;
+    border-radius: 10px;
+}
+.lgin{
+    display:none;
+    cursor: pointer;
+}
+.transparent {
+    background-color: transparent !important;
+    border-radius: 10px;
+}
+.form-group {
+    margin: 0 auto;
+}
+.forgot {
+    font-size: 0.8em;
+    color: #555;
+}
+.sign {
+    font-size: 0.8em;
+    color: #777;
+    font-weight: bold;
+}
+.color {
+    background-color: rgb(248, 233, 233);
+}
+img {
+    height: 16px;
+    width: 16px;
+    padding: 5px;
+}
+#page{
+    margin:0;
+}
+#arti{
+    margin:0;
+    padding:0;
+}
+#signUpLink{
+    border-radius: 10px 0 0 0;
+}
+#signInLink{
+    border-radius: 0 10px 0 0;
+}
+.bg {
+    background-color: rgb(38, 155, 120);
+}
+.dropdown-menu {
+    min-width: 2rem !important;
+}
+.delete {
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #mnu{
+        display:inline;
+        cursor: pointer;
+    }
+    .part{
+        display:none;
+        width:100%;
+        align-self: center;
+    }
+    .intro{
+        font-size:20px;
+        text-align: center;
+    }
+    #arti{
+        font-size:15px;
+        font-style: italic;
+                
+    }
+    .pli{
+        text-align: center;
+        text-decoration: none;
+    }
+    #topmenu{margin:0;}
+    .container-fluid{
+        height:100px;
+        /* padding: 0; */
+    }
+    .appear{
+        display:block;
+    }
+    .hell{
+        display: none;
+    }
+    /* #signIn{
+        width:100%;
+    } */
+    .lgin{
+        display:inline;
+    }
+   
+
+}
